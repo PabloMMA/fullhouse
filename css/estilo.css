@@ -17,9 +17,18 @@ html{
     width: 100%;
     height: 120px;
     box-shadow: 0 3px #F8B349 ;
-    background-color: #fcfcfc;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 70%, rgba(212,126,75,1) 85%);
     position: relative;
 	/* top: 0px; */
+}
+
+.logo{
+    transition: 1s;
+}
+
+.logo:hover{
+    transform: rotateX(360deg);
 }
 
 .grid{
