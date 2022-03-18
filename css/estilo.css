@@ -52,6 +52,10 @@ main{
     grid-area: main;
 }
 
+.altoMain{
+    height: auto;
+}
+
 footer{
     grid-area: footer;
 }
@@ -124,8 +128,8 @@ ul{
 }
 
 .mainImg{
-    position: relative;
-    margin-top: 2px;
+    /* background-image: url("./imagenes/2017-04-13-11-55-00.jpg"); */
+    background-color: #F8B349;
 }
 
 .imgopc{
