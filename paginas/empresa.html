@@ -9,36 +9,43 @@
     <link rel="stylesheet" href="/css/estilo.css">
 </head>
     <body>
-        <section class="gride">
-            <header class="encabezado">
-                <div class="encabezado__contenedor">
-                    <div class="logo">
-                        <img src="/imagenes/LogocolorRGBconfondoblanco.png" alt="LogocolorRGBconfondoblanco.png" width="500">
-                    </div>
-                <nav class="nav">
-                        <ul class="menu__encabezado">
-                            <li>
-                                <a class="menu__enlace" href="index.html">Inicio</a>
-                            </li>          
-                            <li>
-                                <a class="menu__enlace" href="empresa.html">Empresa</a>
-                            </li>            
-                            <li>
-                                <a class="menu__enlace" href="herraminetas.html">Herraminetas</a>
-                            </li>           
-                            <li>
-                                <a class="menu__enlace" href="soluciones.html">Soluciones</a>
-                            </li>
-                            <li>
-                                <a class="menu__enlace" href="contacto.html">Contacto</a>
-                            </li>
-                        </ul>
-                </nav>
+        <section class="grid">
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom encabezado">
+                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                  <div class="logo">
+                    <img src="imagenes/logocolor.png" alt="logocolor.png" width="400">
                 </div>
-            </header>
+                  <!-- <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                  <span class="fs-4">Simple header</span> -->
+                </a>
+          
+                <ul class="nav nav-pills">
+                  <li class="nav-item"><a href="index.html" class="mainImg nav-link active letraNegra" aria-current="page">Inicio</a></li>
+                  <li class="nav-item"><a href="empresa.html" class="nav-link letraNegra">Empresa</a></li>
+                  <li class="nav-item"><a href="herraminetas.html" class="nav-link letraNegra">Herraminetas</a></li>
+                  <li class="nav-item"><a href="soluciones.html" class="nav-link letraNegra">Soluciones</a></li>
+                  <li class="nav-item"><a href="contacto.html" class="nav-link letraNegra">Contacto</a></li>
+                </ul>
+              </header>
             <Main>
-                <section class="mainImg">
-                    <div>
+                <section>
+                    <div class="mainImg bg-dark text-secondary px-4 py-5 text-center">
+                        <div class="py-5">
+                          <h1 class="display-5 fw-bold text-white">¿QUE HACEMOS?</h1>
+                          <div class="col-lg-6 mx-auto">
+                            <p class="fs-5 letraBlanca mb-4">Somos un equipo interdisciplinario con experiencia en el      sector del Revenue Management y del Distribución Online para Hoteles, que busca aprender y crecer continuamente.</p>
+                            <p class="letraBlanca">
+                                Somos conscientes que estamos en un momento en que la competencia es feroz y los recursos limitados, las comisiones de los canales son exorbitantes y la fidelidad del cliente extremadamente frágil.
+                                Somos entusiastas y nos gustan los desafíos, y juntos trabajaremos en equipo para lograr maximizar tus resultados.
+                                </p>
+                            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                              <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Custom button</button>
+                              <button type="button" class="btn btn-outline-light btn-lg px-4">Secondary</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <!-- <div>
                         <div>
                             <img src="/imagenes/revenue-management-hotel-nettohotel.jpg" alt="revenue-management-hotel-nettohotel" width="100%">
                         </div>
@@ -51,18 +58,20 @@
                             Somos entusiastas y nos gustan los desafíos, y juntos trabajaremos en equipo para lograr maximizar tus resultados.
                             </p>
                         </span>
-                    </div>
+                    </div> -->
                 </section>
             </Main>
-            <footer class="py-3 my-4 colorFooter">
-                <ul class="nav justify-content-center border-bottom pb-3 mb-3 colorFooter ">
-                  <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Inicio</a></li>
-                  <li class="nav-item"><a href="empresa.html" class="nav-link px-2 text-muted">Empresa</a></li>
-                  <li class="nav-item"><a href="herraminetas.html" class="nav-link px-2 text-muted">Herraminetas</a></li>
-                  <li class="nav-item"><a href="soluciones.html" class="nav-link px-2 text-muted">Soluciones</a></li>
-                  <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
-                </ul>
-                <p class="text-center text-muted colorFooter">© Copy right 2022 FullHouse - info@fullfouse.com.uy - +59899719922</p>
+            <footer>
+                <div class="py-3 my-4 colorFooter">
+                    <ul class="nav justify-content-center border-bottom pb-3 mb-3 colorFooter ">
+                        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Inicio</a></li>
+                        <li class="nav-item"><a href="empresa.html" class="nav-link px-2 text-muted">Empresa</a></li>
+                        <li class="nav-item"><a href="herraminetas.html" class="nav-link px-2 text-muted">Herraminetas</a></li>
+                        <li class="nav-item"><a href="soluciones.html" class="nav-link px-2 text-muted">Soluciones</a></li>
+                        <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
+                      </ul>
+                      <p class="text-center text-muted colorFooter">© Copy right 2022 FullHouse - info@fullfouse.com.uy - +59899719922</p>
+                </div>
             </footer>
         </section> 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

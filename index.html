@@ -11,8 +11,27 @@
 
 <body>
     <section class="grid">
-        <header class="encabezado">
-            <div class="encabezado__contenedor">
+        <!-- <header class="encabezado"> -->
+          <div class="container">
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom encabezado">
+              <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <div class="logo">
+                  <img src="imagenes/logocolor.png" alt="logocolor.png" width="400">
+              </div>
+                <!-- <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                <span class="fs-4">Simple header</span> -->
+              </a>
+        
+              <ul class="nav nav-pills">
+                <li class="nav-item"><a href="index.html" class="mainImg nav-link active letraNegra" aria-current="page">Inicio</a></li>
+                <li class="nav-item"><a href="empresa.html" class="nav-link letraNegra">Empresa</a></li>
+                <li class="nav-item"><a href="herraminetas.html" class="nav-link letraNegra">Herraminetas</a></li>
+                <li class="nav-item"><a href="soluciones.html" class="nav-link letraNegra">Soluciones</a></li>
+                <li class="nav-item"><a href="contacto.html" class="nav-link letraNegra">Contacto</a></li>
+              </ul>
+            </header>
+          </div>
+            <!-- <div class="encabezado__contenedor">
                 <div class="logo">
                     <img src="imagenes/LogocolorRGBconfondoblanco.png" alt="LogocolorRGBconfondoblanco.png" width="500">
                 </div>
@@ -35,15 +54,15 @@
                             </li>
                         </ul>
                 </nav>
-            </div>
-        </header>
+            </div> -->
+        <!-- </header> -->
         <Main>
-            <section class="py-5 text-center container ">
-                <div class="row py-lg-5 mainImg">
-                  <div class="col-lg-6 col-md-8 mx-auto">
-                    <img src="./imagenes/2017-04-13-11-55-00.jpg" alt="2017-04-13-11-55-00.jpg" width="100%">
-                    <h1 class="fw-light">DISTRIBUCIÓN ONLINE PARA HOTELES</h1>
-                    <p class="lead text-muted">Maximize los resultados de su establecimiento</p>
+            <section class="py-5 text-center container">
+                <div class="row py-lg-5 rounded mainImg">
+                  <div class="col-lg-6 col-md-8 mx-auto letraBlanca">
+                    <img class="rounded" src="./imagenes/2017-04-13-11-55-00.jpg" alt="2017-04-13-11-55-00.jpg" width="100%">
+                    <h1 class="fw-light letraBlanca">DISTRIBUCIÓN ONLINE PARA HOTELES</h1>
+                    <p class="lead text-muted letraBlanca">Maximize los resultados de su establecimiento</p>
                     <p>
                       <a href="#" class="btn btn-primary my-2">Main call to action</a>
                       <a href="#" class="btn btn-secondary my-2">Secondary action</a>
