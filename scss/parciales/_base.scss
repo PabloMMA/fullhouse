@@ -21,7 +21,44 @@ footer{
 //     grid-row-gap: 2px;
 // }
 
+@mixin sizes($width, $height) {
+    width: $width;
+    height: $height;
+   
+ }
+ 
+ .box {
+     @include sizes(100px, 100px);
+ }
+ 
+ .box-mediana {
+     @include sizes(300px, 300px);
+ }
+ 
+ .box-grande {
+     @include sizes(500px, 500px);
+     background-color: pink;
+     color: black;
+     padding: 1rem; 
+ }
 
+ unico {
+    @extend .flex-center;
+}
+
+.otra-clase {
+    @extend .flex-center;
+    flex-direction: column;
+}
+
+.error {
+    border: 1px solid red;
+    background-color: grey;
+    &--grave{
+        @extend .error;
+        background-color: red;
+    }
+}
 
 main{
     grid-area: main;
