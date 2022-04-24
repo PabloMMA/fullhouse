@@ -168,6 +168,11 @@ ul{
     color: #fcfcfc;
 } */
 
+.contactop{
+    height: 60%;
+    width: 60%;
+}
+
 .titulo__empresa{
     width: 1100px;
     height: 200px;
