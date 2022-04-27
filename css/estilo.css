@@ -169,8 +169,14 @@ ul{
 } */
 
 .contactop{
-    height: 60%;
+    /* height: 60%;
     width: 60%;
+    border: 2rem;
+    border-color: #003654 !important; */
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 2rem;
+    background-color: #f8b249;
 }
 
 .titulo__empresa{

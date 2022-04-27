@@ -10,17 +10,6 @@ footer{
     grid-area: footer;
 }
 
-// .gride{
-//     display: grid;
-//     grid-template-columns: 1500px;
-//     grid-template-rows: 100px 922.5px 100px;
-//     grid-template-areas: 
-//         "header header header"
-//         "main main main"
-//         "footer footer footer"; 
-//     grid-row-gap: 2px;
-// }
-
 @mixin sizes($width, $height) {
     width: $width;
     height: $height;
@@ -138,6 +127,3 @@ ul{
     color: #fcfcfc;
 }
 
-.contactop{
-    height: 60%;
-}
